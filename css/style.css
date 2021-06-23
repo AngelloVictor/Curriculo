@@ -13,6 +13,10 @@ aside {
     border: 0.1rem solid black;
 }
 
+hr{
+    border: 1rem solid black;
+}
+
 .icone-rede-social {
     height: 2rem;
     vertical-align: middle;
@@ -36,7 +40,6 @@ aside {
     padding: 1rem;
     border: 0.1rem solid black;
 }
-
 
 .lista-informacoes-adicionais {
     padding: 1rem;
