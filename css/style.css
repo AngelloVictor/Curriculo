@@ -2,7 +2,43 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
     margin: auto;
     height: 100%;
     width: 75%;
+}
+
+aside {
+    padding: 1rem;
+    border: 0.1rem solid black;
+}
+
+.icone-rede-social {
+    height: 2rem;
+    vertical-align: middle;
+}
+
+.lista-contatos-social {
+    padding: 1rem;
+    border: 0.1rem solid black;
+}
+
+.contato-barra-lateral {
+    padding: 0.2em;
+}
+
+.area-principal-informacoes {
+    padding: 1rem;
+    border: 0.1rem solid black;
+}
+
+.lista-informacoes-importantes {
+    padding: 1rem;
+    border: 0.1rem solid black;
+}
+
+
+.lista-informacoes-adicionais {
+    padding: 1rem;
+    border: 0.1rem solid black;
 }
