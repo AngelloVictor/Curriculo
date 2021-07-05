@@ -1,47 +1,40 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+*{
+    padding: auto;
+    margin: 0;
+    text-decoration: none !important;
+}
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    vertical-align: middle;
-    margin: auto;
-    height: 100%;
-    width: 75%;
+  text-align: center;
+  font: normal 1em "Bebas Neue", Arial;
+  background-color: rgb(190, 190, 190);
 }
 
-aside {
-    padding: 1rem;
-    border: 0.1rem solid black;
+main {
+  margin: 0 auto;
+  height: auto;
+  border-radius: 5px;
+  width: 800px;
+  background-color: gray;
 }
 
-hr{
-    border: 0.2rem solid black;
+ul {
+  display: inline-block;
+  vertical-align: top;
 }
 
-.icone-rede-social {
-    height: 2rem;
-    vertical-align: middle;
-}
 
-.lista-contatos-social {
-    padding: 1rem;
-    border: 0.1rem solid black;
-}
 
-.contato-barra-lateral {
-    padding: 0.2em;
-}
-
-.area-principal-informacoes {
-    padding: 1rem;
-    border: 0.1rem solid black;
-}
-
-.lista-informacoes-importantes {
-    padding: 1rem;
-    border: 0.1rem solid black;
-}
-
-.lista-informacoes-adicionais {
-    padding: 1rem;
-    border: 0.1rem solid black;
+#foto-perfil{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(63, 63, 63);
+    border-radius: 50%;
 }
