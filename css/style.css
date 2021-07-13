@@ -3,35 +3,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 * {
-  padding: auto;
+  padding: 3px;
   margin: 0;
   text-decoration: none !important;
 }
 body {
   text-align: center;
   margin: 0 auto;
-  font: normal 1em "Bebas Neue", Arial;
+  font: normal 1em  Arial;
   background-color: #ffffff;
   max-width: 1000px;
   min-width: 250px;
+  color: white;
 }
 
 main {
   margin: 0 auto;
   height: auto;
-  border-radius: 5px;
+  border-radius: 10px;
   max-width: 1000px;
   min-width: 250px;
-  background-color: #c4c4c4;
+  background-color: #eeeeee;
   width: 90%;
   padding: 15px;
+  color: black;
+  box-shadow: 5px 5px  rgb(153, 153, 153);
 }
-
+main > p{
+  max-width: 95%;
+  margin: 10px auto;
+}
 ul {
   display: inline-block;
   vertical-align: top;
+  margin: 20px;
 }
 
+ul > p{
+  max-width: 300px;
+  margin: 20px;
+}
+
+a{
+  color: #ffffff;
+  background-color: #adadad;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+footer{
+  margin-top: 20px;
+}
 #foto-perfil-fora {
   width: 150px;
   height: 150px;
@@ -52,11 +74,14 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(214, 214, 214);
+  background-color: #eeeeee;
   border-radius: 50%;
 }
 
-
+#contato-mentoria{
+  margin-top: -10px;
+margin-bottom: 20px;
+}
 @keyframes gradient {
   0% {
       background-position: 0% 50%;
