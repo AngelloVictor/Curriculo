@@ -2,23 +2,29 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-*{
-    padding: auto;
-    margin: 0;
-    text-decoration: none !important;
+* {
+  padding: auto;
+  margin: 0;
+  text-decoration: none !important;
 }
 body {
   text-align: center;
+  margin: 0 auto;
   font: normal 1em "Bebas Neue", Arial;
-  background-color: rgb(190, 190, 190);
+  background-color: #ffffff;
+  max-width: 1000px;
+  min-width: 250px;
 }
 
 main {
   margin: 0 auto;
   height: auto;
   border-radius: 5px;
-  width: 800px;
-  background-color: gray;
+  max-width: 1000px;
+  min-width: 250px;
+  background-color: #c4c4c4;
+  width: 90%;
+  padding: 15px;
 }
 
 ul {
@@ -26,15 +32,39 @@ ul {
   vertical-align: top;
 }
 
+#foto-perfil-fora {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+
+#foto-perfil-dentro{
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(214, 214, 214);
+  border-radius: 50%;
+}
 
 
-#foto-perfil{
-    width: 150px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    background-color: rgb(63, 63, 63);
-    border-radius: 50%;
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
