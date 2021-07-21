@@ -1,4 +1,3 @@
-
 function backgroundTime() {
     var hour = new Date().getHours();
 
@@ -13,11 +12,12 @@ function backgroundTime() {
     }
 }
 
+function switchColors(element) {
+    links = document.getElementsByClassName("link-menu");
 
-
-//arrumo depois xD
-
-window.addEventListener("load", function () {
-    backgroundTime()
-});
-dateTimeTitle();
+    for (var i = 0; i < links.length; i++) {
+        links.item(i).style.color = 'black';
+        links.item(i).style.borderBottom = '#1052df 0 solid';
+    }
+    element.style.borderBottom = '#1052df 5px solid';
+}
