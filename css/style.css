@@ -8,9 +8,9 @@
 
   --branco: #ffffffff;
   --preto: #000000ff;
-  --azul-background: #52aaec;
+  --azul-background: #52a9ec18;
   --azul-texto: #001140;
-  --azul-destaque: #1052df;
+  --azul-destaque: #00a2ff;
   --azul-sombra: #4968bf;
 
   --breakpoint-small: 320px;
@@ -159,7 +159,7 @@ footer {
   width: 100%;
   height: 720px;
   background-repeat: no-repeat;
-  background-image: url(/media/images/perfil-xl.jpg);
+  background-image: url(../media/images/perfil-xl.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -177,7 +177,7 @@ footer {
   padding: 50px;
   line-height: 4em;
   max-width: 1200px;
-  background-color: rgba(0, 0, 0, 0.212);
+  background-color: var(--azul-background);
   border-radius: 10px;
 }
 
@@ -235,6 +235,11 @@ footer {
   vertical-align: middle;
   height: 35px;
   width: 35px;
+}
+
+.destaque-texto{
+  color: var(--azul-destaque);
+  
 }
 
 /* KEYFRAMES */
