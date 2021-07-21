@@ -2,22 +2,50 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-* {
+/* GLOBAL */
+::root {
+  font-family: "Bebas Neue", sans-serif;
+  --breakpoint-small: 320px;
+  --breakpoint-medium: 768px;
+  --breakpoint-large: 1280px;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
   padding: 3px;
   margin: 0;
   text-decoration: none !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+/* HEADER */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* BODY */
 body {
   text-align: center;
   margin: 0 auto;
-  font: normal 1em  Arial;
+  margin-top: 5%;
+  font: normal 1em Arial;
   background-color: #ffffff;
   max-width: 1000px;
   min-width: 250px;
   color: white;
 }
 
+/* MAIN */
 main {
+  display: block;
   margin: 0 auto;
   height: auto;
   border-radius: 10px;
@@ -27,69 +55,93 @@ main {
   width: 90%;
   padding: 15px;
   color: black;
-  box-shadow: 5px 5px  rgb(153, 153, 153);
+  box-shadow: 5px 5px rgb(153, 153, 153);
 }
-main > p{
+main > p {
   max-width: 95%;
   margin: 10px auto;
 }
+
+/* LISTAS */
 ul {
   display: inline-block;
   vertical-align: top;
   margin: 20px;
+  width: 500px;
+  max-width: 200px;
 }
 
-ul > p{
+ul > p {
   max-width: 300px;
   margin: 20px;
 }
 
-a{
+/* LINKS */
+a {
   color: #ffffff;
   background-color: #adadad;
   border-radius: 5px;
   padding: 4px;
 }
 
-footer{
+/* RODAPÉ */
+footer {
   margin-top: 20px;
 }
-#foto-perfil-fora {
-  width: 150px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 20s ease infinite;
-}
 
-#foto-perfil-dentro{
-  width: 90%;
-  height: 90%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #eeeeee;
-  border-radius: 50%;
-}
+/* IDS */
 
-#contato-mentoria{
+#contato-mentoria {
   margin-top: -10px;
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
+
+#menu-flutuante {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: #fdfdfdf5;
+  width: 100%;
+  padding: 30px;
+  margin: 0 10px 0 10px;
+  text-transform: uppercase;
+  font: bold 1.2em Arial;
+}
+
+#menu-flutuante a {
+  color: black;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 0;
+  letter-spacing: 0.2em;
+  box-sizing: border-box;
+  transition: all 0.3s;
+
+}
+
+#menu-flutuante a:hover {
+  color: blue;
+  background-color: transparent;
+  border-bottom: blue 5px solid;
+  border-radius: 0;
+  padding: 10px 1% 10px 1%;
+  transform: translate(-50%, 0);
+  transition: all 0.3s;
+}
+
+/* CLASSES */
+
+/* KEYFRAMES */
 @keyframes gradient {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
+
+/* MEDIA QUERYS */
