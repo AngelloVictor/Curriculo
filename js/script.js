@@ -17,7 +17,8 @@ function switchColors(element) {
 
     for (var i = 0; i < links.length; i++) {
         links.item(i).style.color = 'black';
-        links.item(i).style.borderBottom = '#1052df 0 solid';
+        links.item(i).style.borderBottom = '#001140 0 solid';
     }
-    element.style.borderBottom = '#1052df 5px solid';
+    element.style.borderBottom = '#001140 5px solid';
 }
+
