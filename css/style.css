@@ -183,11 +183,10 @@ footer {
   display: block;
   text-align: left;
   line-height: 4em;
-  max-width: 1600px;
-  min-width: 320px;
+  width: 70%;
   background-color: var(--azul-background);
   border-radius: 10px;
-  padding: 50px;
+  padding: 70px 50px 70px 50px;
   backdrop-filter: blur(7px);
   box-shadow: 5px 5px 20px #ffffff13 inset;
 }
@@ -195,6 +194,9 @@ footer {
 #informacoes-pessoais > p {
   line-height: 1em;
   text-align: left;
+  max-width: 720px;
+
+  margin-bottom: 30px;
 }
 
 #informacoes-pessoais > h1 {
@@ -212,7 +214,6 @@ footer {
   text-align: right;
   text-transform: uppercase;
   letter-spacing: 10px;
-  padding-left: 10em;
   max-width: 100%;
 }
 
@@ -300,6 +301,9 @@ footer {
     text-align: center;
   }
 
+  main{
+    margin-top: 35px;
+  }
   nav {
     display: inline;
     max-height: 24px;
