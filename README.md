@@ -1,6 +1,6 @@
 ## Landing Page **em desenvolvimento**
 
-- Aporesentação
+- Apresentação
 - Competencias
 - Projetos
 - Contato
