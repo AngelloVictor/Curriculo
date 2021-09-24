@@ -13,12 +13,13 @@ function backgroundTime() {
 }
 
 function switchColors(element) {
-    links = document.getElementsByClassName("link-menu");
+
+    let links = document.getElementsByClassName("link-menu");
 
     for (var i = 0; i < links.length; i++) {
-        links.item(i).style.color = 'black';
-        links.item(i).style.borderBottom = 'none';
+        console.log(links[i].style.color);
+        links.item(i).style = "";
     }
-    element.style.borderBottom = '#001755 5px solid';
-}
 
+    element.style.borderBottom = '#00b7ff 2px solid';
+}

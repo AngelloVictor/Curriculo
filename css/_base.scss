@@ -1,0 +1,27 @@
+$azul-background: #52a9ec18;
+$azul-texto: #000c2c;
+$azul-destaque: #00b7ff;
+$azul-destaque-sombra: #00a2ff17;
+$azul-destaque-hover: #00a2ff00;
+$azul-sombra: #4968bf;
+
+
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  header {
+    font-size: 62.5%;
+    font-family: "Roboto", monospace;
+    letter-spacing: 0.5px;
+    color: #fff;
+  }
+  
+  
+  

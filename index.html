@@ -1,102 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Angelo Victor</title>
+  <link rel="stylesheet" href="css/main.css">
+  <!-- in your header -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
-    <title id="titulo-adaptativo"">Resume - Angelo Victor</title>
-
-    <link rel=" stylesheet" href="css/style.css">
-        <script src="js/script.js"></script>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
+  <!-- script -->
+  <script src="js/script.js"></script>
 </head>
 
+<body>
+  <header>
+    <div class="container" id="container-navbar">
+      <nav id="navbar">
+        <ul>
+          <a class="link-menu" href="#home" onclick="switchColors(this)"
+            style="border-bottom: 2px solid #00b7ff">HOME</a>
+          <a class="link-menu" href="#skills" onclick="switchColors(this)">SKILLSET</a>
+          <a class="link-menu" href="#experience" onclick="switchColors(this)">EXPERIENCIA</a>
+          <a class="link-menu" href="#contact" onclick="switchColors(this)">CONTATO</a>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <main>
+    <div class="container" id="container-glass-pannel">
 
-<body data-tilt transform-style: preserve-3d data-tilt-perspective="10000">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/src/tilt.jquery.js"></script> <!-- Load Tilt.js library -->
-
-    <header>
-
-        <nav id="menu-flutuante">
-            <!-- <img id="logo-barra-nav" src="" alt=""> -->
-
-            <a id="link-principal" class="link-menu" href="#home" onclick="switchColors(this)">Home</a>
-            <a class="link-menu" href="#formacao" onclick="switchColors(this)">Formação</a>
-            <a class="link-menu" href="#experiencia" onclick="switchColors(this)">Experiencia</a>
-            <a class="link-menu" href="#repositorios" onclick="switchColors(this)">Repositorios</a>
-            <a class="link-menu" href="#contato" onclick="switchColors(this)">Contato</a>
-        </nav>
-
-    </header>
-
-
-    <main id="home">
-        <div id="container">
-            <div id="informacoes-pessoais">
-                <h1>Victor</h1>
-                <h1>Angelo</h1>
-                <h2><span class="destaque-texto">Fullstack</span> Developer</h2>
-                <p>
-                    Desenvolvimento de sites responsivos do começo ao final, com toda a transparencia e adaptabilidade
-                    que precisa.
-                    Gostou da ideia?
-                    <a class="destaque-texto " href="">Entre em contato!</a>
-                </p>
-
-                <div id="link-centralizado">
-                    <img class="icons-sm" src="media/images/linkedin.png" alt="">
-                    <a href="#">Linkedin</a>
-                    <img class="icons-sm" src="media/images/github.png" alt="">
-                    <a href="#">GitHub</a>
-                </div>
-            </div>
-        </div>
-
-        <div id="formacao">
-        </div>
-
-        <div id="experiencia">
-        </div>
-
-        <div id="repositorios">
-        </div>
-
-        <h1 class="titulo destaque-texto">/* CONTATO */</h1>
-        <div id="contato">
-
-            <div class="padrao-contato">
-                <img class="icons-sm" src="media/images/locate.png" alt="Localização">
-                <h2>Localização</h2>
-                <p>Araçatuba, SP</p>
-            </div>
-
-
-            <div class="padrao-contato">
-                <img class="icons-sm" src="media/images/telefone.png" alt="numero telefone">
-                <h2>Telefone</h2>
-                <p>(18) 99999-9999</p>
-            </div>
-
-            <div class="padrao-contato">
-                <img class="icons-sm" src="media/images/email.png" alt="email">
-                <h2>Email</h2>
-                <p>angello.contato@gmail.com</p>
-            </div>
-        </div>
-    </main>
-
-
-
-
-    <footer id="rodape-contato">
-        Desenvolvido por Victor Angelo M. Z. | Publicado por GitHub
-    </footer>
+      <div id="glass-pannel">
+        <h1 class="main-title">VICTOR ANGELO</h1>
+        <h2 class="second-title">DATA ANALYST &</h2>
+        <h2 class="second-title">FULLSTACK DEVELOPER</h2>
+        <p>Desenvolvimento de sites responsivos do começo ao final, com toda a transparencia e adaptabilidade que
+          precisa. Gostou da ideia? <a href="">Entre em contato!</a></p>
+      </div>
+    </div>
+  </main>
 
 
 

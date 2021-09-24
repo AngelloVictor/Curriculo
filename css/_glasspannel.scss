@@ -1,0 +1,76 @@
+/* GLASS PANNEL */
+#container-glass-pannel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: right;
+    margin-top: 7vh;
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-image: url("../media/images/perfil-xl.jpg");
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        font-size: 8rem;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        letter-spacing: 2px;
+    }
+
+    h1::first-letter,
+    h2::first-letter {
+        text-decoration: underline;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+}
+
+#glass-pannel {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: $azul-destaque-sombra;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+
+    p {
+        padding: 15px;
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgba(0, 16, 160, 0.247);
+        transition: all 0.2s ease;
+        color: $azul-destaque;
+
+        &:hover {
+            @include text_shadow(3px);
+            background-color: transparent;
+            transition: all 0.2s ease;
+
+        }
+
+        
+    }
+}
+
+
+
+.second-title {
+    font-size: 3.5rem;
+    @include text_shadow(3px);
+    background-color: transparent;
+
+}
