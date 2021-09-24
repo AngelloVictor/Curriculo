@@ -1,2 +1,6 @@
-# Portifolio
- Meu Portifolio de projetos desenvolvidos e competencias!
+## Landing Page **em desenvolvimento**
+
+- Apresentação
+- Competencias
+- Projetos
+- Contato
